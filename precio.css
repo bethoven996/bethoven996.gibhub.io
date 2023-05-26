@@ -1,0 +1,258 @@
+.body{
+    background-image: url(https://media.gettyimages.com/id/869378032/es/foto/netflix-logo-is-displayed-during-the-paris-games-week-on-november-02-2017-in-paris-france.jpg?s=612x612&w=gi&k=20&c=zIBmOw9SnY7QASLsigRhpaYC5IqtQpPe8au356DoC7c=)
+}
+.contenedorTodo{
+    background-color: aliceblue;
+    display: flex;
+    border: 3px solid black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 25px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+}
+.check{
+    width: 15px;
+    height: 15px;
+}
+.cont-header{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.titulo{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique grey;
+    opacity: inherit;
+    margin-top: 100px;
+    height: 30px;
+    margin-left: 40px;
+    position: absolute;
+}
+.cont-planes{
+    display: flex;
+    margin-top: 230px;
+    justify-content: space-around;
+    width: 800px;
+    position: absolute ;
+    float: inline-start;
+}
+.titulo1{
+    font-family: cursive;
+    font-size: 30px;
+    font-style: oblique;
+    opacity: inherit;
+    margin-left: 300px;
+    height: 30px;
+    position: absolute
+}
+
+.cont-plan{
+width: 200px;
+display: flex;
+}
+
+.tituloPlan{
+    margin-top: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    position: absolute;
+    margin-left: 55px;
+    font-size: 18px;
+}
+.precioPlan{
+    margin-top: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    position: absolute;
+    margin-left: 55px;
+    font-size: 14px;
+}
+.cont-check{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkPlan{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: medium;
+    font-style: initial blue;
+}
+.precio-cont{
+    background-color: rgb(223, 223, 218);
+    border-radius: 30px;
+    border: dashed 3px rgb(230, 186, 181);
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.precio-cont:hover{
+    background-color: rgb(134, 134, 125);
+    border-radius: 30px;
+    border: dashed 3px rgb(240, 213, 210);
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all 900ms;
+}
+.btnBasic{
+    width: 120px;
+    background-color: rgb(146, 146, 230);
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+.btnBasic1{
+    width: 120px;
+    background-color: rgb(146, 146, 230);
+    height: 40px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.btnBasic:hover{
+    width: 140px;
+    background-color: rgb(92, 92, 240);
+    transition: all 500ms;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+.btnBasic1:hover{
+    width: 140px;
+    background-color: rgb(92, 92, 240);
+    transition: all 500ms;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+#pagar{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(199, 204, 203);
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 330px;
+    border-radius: 30px;
+    border: solid black 3px;
+}
+.tituloPrecio{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 50px;
+}
+.cuadro{
+    display: none;
+}
+.tituloPago{
+    flex-direction: column;
+    margin-left: 50px;
+}
+.imagLogo{
+    width: 250px;
+    height: 130px;
+    margin-left: 300px;
+    display: block;
+}
+.cont-inputs{
+    position: absolute;
+    margin-top: -120px;
+}
+.footer{
+    margin-top: 10px;
+    width: 330px;
+    height: 120;
+    margin-left: 270px;
+}
+.ingreso{
+    font-size: medium;
+    font-family: cursive;
+    font-style: oblique;
+    background-color: rgb(171, 179, 176);
+
+}
+.inputsPago{
+    width: 190px;
+    background-color: rgb(248, 245, 245);
+    height: 10px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.texto{
+    font-size: medium;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.btnIngresar{
+    width: 120px;
+    background-color: rgb(146, 146, 230);
+    height: 40px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-family: cursive;
+}
+.btnIngresar:hover{
+    width: 140px;
+    background-color: rgb(92, 92, 240);
+    transition: all 700ms;
+    height: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    font-family: cursive;
+}
+.botonRemove{
+    width: 20px;
+    height: 20px;
+    margin-left: -40px;
+    margin-top: -45px;
+    position: absolute;
+}
+.tituloPago{
+    display: "flex";
+}
+#pagarB{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(199, 204, 203);
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 330px;
+    border-radius: 30px;
+    border: solid black 3px;
+}
+#pagarP{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(199, 204, 203);
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 330px;
+    border-radius: 30px;
+    border: solid black 3px;
+}
+.ingresarCuenta{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.9;
+    margin-left: 70px;
+    position: absolute;
+}
